@@ -155,6 +155,9 @@ vim.keymap.set('', '<C-k>', '<C-w>k')
 vim.keymap.set('', '<C-j>', '<C-w>j')
 vim.keymap.set('', '<C-l>', '<C-w>l')
 
+-- Delete word backwards
+vim.keymap.set('n', 'dW', 'vb"_d')
+
 -- [[ Highlight on yank ]]
 -- See `:help vim.highlight.on_yank()`
 local highlight_group = vim.api.nvim_create_augroup('YankHighlight', { clear = true })
