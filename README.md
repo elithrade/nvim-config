@@ -8,6 +8,8 @@ My current Neovim configurations located in my [dotfiles](https://github.com/eli
 
 ## Installation
 
+[ripgrep](https://github.com/BurntSushi/ripgrep#installation) is needed for word grepping to work in `telescope`.
+
 ### Windows
 
 Copy `init.lua` to `~/AppData/Local/nvim` folder.
