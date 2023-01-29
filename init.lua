@@ -25,6 +25,8 @@ require('packer').startup(function(use)
     },
   }
 
+  use 'jose-elias-alvarez/null-ls.nvim' -- Use Neovim as a language server to inject LSP diagnostics, code actions, and more via Lua
+
   use { -- Autocompletion
     'hrsh7th/nvim-cmp',
     requires = { 'hrsh7th/cmp-nvim-lsp', 'L3MON4D3/LuaSnip', 'saadparwaiz1/cmp_luasnip' },
@@ -110,6 +112,7 @@ require('elithrade.maps')
 require('elithrade.nvim-cmp')
 require('elithrade.telescope')
 require('elithrade.treesitter')
+require('elithrade.null-ls')
 
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
