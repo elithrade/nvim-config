@@ -53,6 +53,7 @@ require('packer').startup(function(use)
   use 'numToStr/Comment.nvim' -- "gc" to comment visual regions/lines
   use 'tpope/vim-sleuth' -- Detect tabstop and shiftwidth automatically
   use 'onsails/lspkind-nvim' -- VsCode-like pictograms
+  use 'windwp/nvim-autopairs'
 
   -- Fuzzy Finder (files, lsp, etc)
   use { 'nvim-telescope/telescope.nvim', branch = '0.1.x', requires = { 'nvim-lua/plenary.nvim' } }
@@ -94,13 +95,13 @@ vim.api.nvim_create_autocmd('BufWritePost', {
   pattern = vim.fn.expand '$MYVIMRC',
 })
 
+require('elithrade.autopairs')
 require('elithrade.base')
 require('elithrade.comment')
 require('elithrade.gitsigns')
 require('elithrade.highlights')
 require('elithrade.indent')
 require('elithrade.lsp')
-require('elithrade.lualine')
 require('elithrade.lualine')
 require('elithrade.maps')
 require('elithrade.nvim-cmp')
