@@ -16,8 +16,11 @@ require('nvim-treesitter.configs').setup {
     'javascript',
     'html',
     'css',
-    'yaml' },
-
+    'yaml'
+  },
+  autotag = {
+    enable = true,
+  },
   highlight = { enable = true },
   indent = { enable = true, disable = { 'python' } },
   incremental_selection = {

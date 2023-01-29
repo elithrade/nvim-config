@@ -54,6 +54,7 @@ require('packer').startup(function(use)
   use 'tpope/vim-sleuth' -- Detect tabstop and shiftwidth automatically
   use 'onsails/lspkind-nvim' -- VsCode-like pictograms
   use 'windwp/nvim-autopairs'
+  use 'windwp/nvim-ts-autotag'
 
   -- Fuzzy Finder (files, lsp, etc)
   use { 'nvim-telescope/telescope.nvim', branch = '0.1.x', requires = { 'nvim-lua/plenary.nvim' } }
