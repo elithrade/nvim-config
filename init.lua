@@ -58,6 +58,7 @@ require('packer').startup(function(use)
   use 'windwp/nvim-autopairs'
   use 'windwp/nvim-ts-autotag'
   use 'norcalli/nvim-colorizer.lua'
+  use 'kyazdani42/nvim-web-devicons' -- File icons 
 
   -- Fuzzy Finder (files, lsp, etc)
   use { 'nvim-telescope/telescope.nvim', branch = '0.1.x', requires = { 'nvim-lua/plenary.nvim' } }
@@ -102,6 +103,7 @@ vim.api.nvim_create_autocmd('BufWritePost', {
 require('elithrade.autopairs')
 require('elithrade.base')
 require('elithrade.colorizer')
+require('elithrade.web-devicons')
 require('elithrade.comment')
 require('elithrade.gitsigns')
 require('elithrade.highlights')
