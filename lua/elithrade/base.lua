@@ -1,11 +1,16 @@
 -- [[ Setting options ]]
 -- See `:help vim.o`
 
+-- Clipboard
+vim.o.clipboard = 'unnamedplus'
+
 -- Set highlight on search
 vim.o.hlsearch = false
 
 -- Make line numbers default
 vim.wo.number = true
+-- Turn on relative number
+vim.wo.rnu = true
 
 -- Enable mouse mode
 vim.o.mouse = 'a'
