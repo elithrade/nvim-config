@@ -12,7 +12,7 @@ My current Neovim configurations located in my [dotfiles](https://github.com/eli
 
 ### Windows
 
-Copy `init.lua` to `~/AppData/Local/nvim` folder.
+`git clone git@github.com:elithrade/nvim-config.git ~/AppData/Local/nvim`
 
 ### Linux
 
