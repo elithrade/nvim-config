@@ -8,7 +8,7 @@ require('nvim-treesitter.configs').setup {
     'lua',
     'rust',
     'typescript',
-    'help',
+    'vimdoc',
     'vim',
     'tsx',
     'markdown',
