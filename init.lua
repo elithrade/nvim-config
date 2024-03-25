@@ -51,7 +51,6 @@ require('packer').startup(function(use)
 
   use 'navarasu/onedark.nvim' -- Theme inspired by Atom
   use 'nvim-lualine/lualine.nvim' -- Fancier statusline
-  use 'lukas-reineke/indent-blankline.nvim' -- Add indentation guides even on blank lines
   use 'numToStr/Comment.nvim' -- "gc" to comment visual regions/lines
   use 'tpope/vim-sleuth' -- Detect tabstop and shiftwidth automatically
   use 'onsails/lspkind-nvim' -- VsCode-like pictograms
@@ -107,7 +106,6 @@ require('elithrade.web-devicons')
 require('elithrade.comment')
 require('elithrade.gitsigns')
 require('elithrade.highlights')
-require('elithrade.indent')
 require('elithrade.lsp')
 require('elithrade.lualine')
 require('elithrade.maps')
